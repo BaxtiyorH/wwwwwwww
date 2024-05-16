@@ -1,0 +1,651 @@
+body {
+    width: 1440px;
+    height: auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.ds {
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: aquamarine;
+}
+
+.lan {
+    display: flex;
+    gap: 10px;
+}
+
+.da {
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: aquamarine;
+}
+
+.da a {
+    margin-left: 5px;
+}
+
+.ds a {
+    margin-left: 5px;
+}
+
+header section {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+.input {
+    padding-left: 20px;
+    width: 839px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #414141;
+}
+
+.search_icon {
+    margin-left: 4px;
+    z-index: 999;
+    position: absolute;
+}
+
+.swiper {
+    width: 1045px;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.swiper-slide {
+    background-image: url(./images/background.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.view {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 163px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #414141;
+}
+
+.loft {
+    padding-left: 120px;
+    padding-top: 100px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #3C3C3C;
+}
+
+.fur {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    padding-left: 120px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #3C3C3C;
+}
+
+.mod {
+    padding-left: 120px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #343434;
+}
+
+.one {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.one a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+}
+
+.two {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.two a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+}
+
+
+.three {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.three a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+}
+
+.four {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.four a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+}
+
+
+.five {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.five a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+}
+
+.six {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.six a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+}
+
+.box {
+    box-shadow: 0px 2px 1px 0px gray;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+}
+
+.best {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.dive {
+    display: none;
+}
+
+.dive_one:hover {
+    transition: 1s;
+}
+
+.div_one:hover .dive {
+    display: block;
+    z-index: 990;
+    transition: 1s;
+}
+
+.div_one {
+    margin-bottom: 50px;
+    width: 263px;
+    border: 1px dotted gray;
+}
+
+.dive img {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.bar {
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #414141;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.val {
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+.chair {
+    padding-left: 32px;
+    padding-top: 42px;
+    padding-bottom: 54px;
+}
+
+.cost {
+    padding-left: 20px;
+    padding-bottom: 33px;
+}
+
+.button_one {
+    width: 223px;
+    height: 43px;
+    background-color: #245462;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.main_div_one {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+.divee {
+    display: none;
+}
+
+.div_onee:hover {
+    transition: 1s;
+}
+
+.div_onee:hover .divee {
+    display: block;
+    transition: 1s;
+}
+
+.div_onee {
+    margin-bottom: 50px;
+    width: 263px;
+    border: 1px dotted gray;
+}
+
+.divee img {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.bare {
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #414141;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.vale {
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+.chaire {
+    padding-left: 32px;
+    padding-top: 42px;
+    padding-bottom: 54px;
+}
+
+.coste {
+    padding-left: 20px;
+    padding-bottom: 33px;
+}
+
+.button_onee {
+    width: 223px;
+    height: 43px;
+    background-color: #245462;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.di {
+    display: none;
+}
+
+.di_one:hover {
+    transition: 1s;
+}
+
+.di_one:hover .dive {
+    display: block;
+    transition: 1s;
+}
+
+.di_one {
+    margin-bottom: 50px;
+    width: 263px;
+    border: 1px dotted gray;
+}
+
+.di img {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.ba {
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #414141;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.va {
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+.chai {
+    padding-left: 32px;
+    padding-top: 42px;
+    padding-bottom: 54px;
+}
+
+.cos {
+    padding-left: 20px;
+    padding-bottom: 33px;
+}
+
+.butto_one {
+    width: 223px;
+    height: 43px;
+    background-color: #245462;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.main_div_two {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.main_div_three {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.bir {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding-left: 140px;
+    padding-top: 64px;
+    font-size: 18px;
+    color: #3C3C3C;
+}
+
+footer section div p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    gap: 10px;
+    display: grid;
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+footer section {
+    display: flex;
+    gap: 65px;
+    padding-left: 35px;
+}
+
+footer section div {
+    padding-left: 105px;
+    padding-top: 15px;
+}
+
+.tik {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.logo_e {
+    padding-left: 400px;
+    padding-bottom: 20px;
+}
+
+.imgg {
+    display: grid;
+    justify-content: end;
+}
+
+.butt {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(127, 255, 212, 0.515);
+}
+
+.but {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(127, 255, 212, 0.515);
+}
+
+.bu {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(127, 255, 212, 0.515);
+}
+
+.buttton {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(127, 255, 212, 0.515);
+}
+
+.yu {
+    padding-top: 5px;
+}
+
+.heart-button {
+    background-color: #ff7675;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    /* Tugma radiusini yurakcha shaklga qilish */
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+.kl {
+    display: none;
+}
+
+.ou {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .input {
+        width: 243px;
+        margin-left: -760px;
+        height: 40px;
+    }
+
+    .search_icon {
+        margin-left: -755px;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .logo {
+        margin-left: -250px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .box {
+        display: flex;
+    }
+
+    .one a {
+        font-size: 14px;
+    }
+
+    .two a {
+        font-size: 14px;
+    }
+
+    .three a {
+        font-size: 14px;
+    }
+
+    .four a {
+        font-size: 14px;
+    }
+
+    .five {
+        display: none;
+    }
+
+    .six {
+        display: none;
+    }
+
+    .box {
+        align-items: center;
+        width: 600px;
+        margin-left: 80px;
+    }
+
+    .loft {
+        font-size: 35px;
+    }
+
+    .fur {
+        font-size: 35px;
+    }
+
+}
